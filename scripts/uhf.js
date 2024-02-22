@@ -111,11 +111,6 @@ if (uhf) {
         scriptElement = document.createElement('script');
         scriptElement.src = "scripts/1ds.js";
         document.body.appendChild(scriptElement);
-
-        // Execute jQuery code after all content is loaded.
-        $(function () {
-            document.body.style.visibility = 'visible';
-        });
     }
 
     // Start loading CSS files.
