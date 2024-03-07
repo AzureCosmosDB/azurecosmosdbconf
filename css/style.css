@@ -15,6 +15,8 @@
     --theme-light: #b0d5f2;
     --theme-light-alt: #f5fafe;
     --theme-link: #106EBE;
+    --theme-background: #253149;
+    --theme-light-blue: #b3daf0;
     /*    Errors & Status*/
     --status-error: #A80000;
     --status-success: #107C10;
@@ -269,8 +271,8 @@ a.blue:focus {
     background-color: var(--grey10);
 }
 
-.bg-dark {
-    background-color: var(--theme-dark);
+.bg-dark-blue {
+    background-color: var(--theme-background);
 }
 
 .bg-light {
@@ -412,9 +414,13 @@ a.blue:focus {
     padding-left:1rem;
 }
 
+.blue-border-left-dark {
+    border-left: 3px solid var(--theme-secondary);
+    padding-left:1rem;
+}
+
 .speaker-img-card {
     border-radius: 1.5rem;
-    max-width: 110px;
 }
 
 .speaker-img {
