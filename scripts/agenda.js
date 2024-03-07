@@ -2,7 +2,7 @@
 var speakers = [
     {
         id: 1,
-        name: "Anitha Adusumilli",
+        name: "Anitha Adusumilli - Microsoft",
         session: "Near real-time analytics on Azure Cosmos DB with Microsoft Fabric mirroring",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, learn how you can bring Azure Cosmos DB data into Microsoft Fabric and run no-ETL, near real-time analytics over your operational data. Mirroring allows you to unify your data estate and break down silos. You can seamlessly mirror data from various sources like Snowflake, Azure Cosmos DB, Azure SQL DB, etc. into Fabric. Once the data is replicated into Fabric OneLake, you can join data across these mirrored artifacts and build complex analytical solutions with ease, unifying your data estate.",
@@ -18,7 +18,7 @@ var speakers = [
     },
     {
         id: 2,
-        name: "Arthur Vickers",
+        name: "Arthur Vickers - Microsoft",
         session: "Use EF Core to transition from SQL Server to Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "Differences in the characteristics and capabilities of document databases when compared to relational databases mean that it is often unwise to lift a relational model and attempt to use it directly with a document database. However, with appropriate changes to the data model and its use, a relational workload can be moved to a document database, especially when using an abstraction like EF Core. In this session, we take a simple application using EF Core and the SQL Server database provider and migrate it to use EF Core with the Azure Cosmos DB database provider, making appropriate changes along the way to promote best practices for working with document databases.",
@@ -34,7 +34,7 @@ var speakers = [
     },
     {
         id: 3,
-        name: "Avijit Gupta",
+        name: "Avijit Gupta - Microsoft",
         session: "Developing a Similarity Search Application utilizing Vector types on Azure CosmosDB for Mongo vCore",
         dateAndTime: "Date/Time TBA",
         abstract: "Similarity Search Application leveraging vector data types on Azure Cosmos DB for MongoDB vCore. This application will offer two key functionalities: Text to Image search and Image to Image search. In the Text to Image search feature, users can input textual queries, and the application will utilize vector data types to find semantically similar images stored in the Azure Blob.  Similarly, the Image to Image search feature allows users to upload an image, and the application will employ vector data types to search through blob container.",
@@ -50,7 +50,7 @@ var speakers = [
     },
     {
         id: 4,
-        name: "Craig Courtney",
+        name: "Craig Courtney - Aware",
         session: "Enhancing Data Ingestion and Enrichment at Aware with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "Aware utilizes Azure Cosmos DB to efficiently process vast streams of messages in its AI/ML-driven data ingestion and enrichment pipeline. This session highlights the deployment of Kubernetes KEDA auto-scalers, Azure Cosmos DB partitioning, and throughput autoscaling techniques. We'll discuss practical applications of Azure Cosmos DB change feeds in data management and outline strategies for effective cost management and optimization in a high-volume environment.",
@@ -66,7 +66,7 @@ var speakers = [
     },
     {
         id: 5,
-        name: "Debasish Biswas",
+        name: "Debasish Biswas - Aware",
         session: "Enhancing Data Ingestion and Enrichment at Aware with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "Aware utilizes Azure Cosmos DB to efficiently process vast streams of messages in its AI/ML-driven data ingestion and enrichment pipeline. This session highlights the deployment of Kubernetes KEDA auto-scalers, Azure Cosmos DB partitioning, and throughput autoscaling techniques. We'll discuss practical applications of Azure Cosmos DB change feeds in data management and outline strategies for effective cost management and optimization in a high-volume environment.",
@@ -82,7 +82,7 @@ var speakers = [
     },
     {
         id: 6,
-        name: "Deborah Chen",
+        name: "Deborah Chen - Microsoft",
         session: "How to achieve good cost/performance with Azure Cosmos DB elasticity",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, we'll take a look at best practices in Azure Cosmos DB partitioning and how you can use various elasticity features to optimize your workload for good cost/performance, including autoscale, partition merge, and more.",
@@ -98,7 +98,7 @@ var speakers = [
     },
     {
         id: 7,
-        name: "Divakar Kumar",
+        name: "Divakar Kumar - Flyers Soft Private Limited",
         session: "CosmicTalent: Workforce Efficiency with AI-Driven Vector Search",
         dateAndTime: "Date/Time TBA",
         abstract: "By leveraging the native vector search feature in Azure Cosmos DB for MongoDB vCore, we will develop a intelligent application that allows organization to do resource mapping and talent optimization in a better and efficient way. We will start by uploading the resume of all employees via API/batch processing , which is then used by AI Document Intelligence to extract semantic chunks and stored in our vector database. Now, Manager/Business/HR users, queries with relevant JD or custom queries. Query is then vectorized, and then uses it in a vector query against the data stored in Azure Cosmos DB for MongoDB vCore. The results are then passed to Azure OpenAI Service which will then helps in listing all relevant candidates who are currently in bench.",
@@ -114,7 +114,7 @@ var speakers = [
     },
     {
         id: 8,
-        name: "Farah Abdou",
+        name: "Farah Abdou - Uplimit",
         session: "Building Intelligent Data Analysis Applications with OpenAI's LLMs and Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "This session will explore the integration of Large Language Models (LLMs) from OpenAI with Azure Cosmos DB to develop intelligent data analysis applications. Learn how to enhance data insights using LLMs, leverage Azure Cosmos DB as a vector database, and orchestrate AI workflows with tools like LangChain. The session will cover practical examples, implementation strategies, and best practices for creating AI-powered applications that scale seamlessly.",
@@ -130,7 +130,7 @@ var speakers = [
     },
     {
         id: 9,
-        name: "Hossein Khadivi Heris",
+        name: "Hossein Khadivi Heris - Microsoft",
         session: "LLM App Development Using PromptFlow and Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "In this informative talk, we will present the integration of Azure Cosmos DB MongoDB vCore and Postgres in PromptFlow via the pf-azuredata package. This light-weight library streamlines the integration of MongoDB vCore and PostgreSQL’s vector search with PromptFlow, accelerating the development of LLM applications using PromptFlow and Azure AI Studio. These Microsoft tools are essential for building deployment-ready LLM applications. We will demonstrate the integration through a practical sample.",
@@ -146,7 +146,7 @@ var speakers = [
     },
     {
         id: 10,
-        name: "Jasmine Greenaway",
+        name: "Jasmine Greenaway - Microsoft",
         session: "Unleashing Potential: Design Patterns in Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "Learn how to unlock the power of strategic design pattern utilization in Azure Cosmos DB for effective data modeling and resilient applications.",
@@ -162,7 +162,7 @@ var speakers = [
     },
     {
         id: 11,
-        name: "James Codella",
+        name: "James Codella - Microsoft",
         session: "Building Generative AI Apps with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "In this demo-focused session, we'll see how Azure Cosmos DB can support your Generative AI applications! From using vector search for Retrieval Augmented Generation (RAG), to managing chat histories, semantic caching, and more, all from your favorite orchestration tools like Semantic Kernel and LangChain! Learn why Azure Cosmos DB is the best database for your AI-powered applications!",
@@ -178,7 +178,7 @@ var speakers = [
     },
     {
         id: 12,
-        name: "Karlo Zatylny",
+        name: "Karlo Zatylny - Portnox Security",
         session: "Turning Growing Pains To Growing Wins With Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "As a cloud native application grows in scale with an increase in both customer size and count, the database and compute systems get subject to new and interesting changes. This session will focus on the way which Portnox dealt with tripling our scale in one year in Azure Cosmos DB and the tools and methodologies we used in order to address scale issues in containers and analyze any need for caching.",
@@ -194,7 +194,7 @@ var speakers = [
     },
     {
         id: 13,
-        name: "Kirill Gavrylyuk",
+        name: "Kirill Gavrylyuk  - Microsoft",
         session: "Azure Cosmos DB Conf 2024 Keynote",
         dateAndTime: "Date/Time TBA",
         abstract: "Hear the latest and greatest from the Azure Cosmos DB team, including new features, customer stories, and a look at the future of the service.",
@@ -210,7 +210,7 @@ var speakers = [
     },
     {
         id: 14,
-        name: "Manish Sharma",
+        name: "Manish Sharma - Microsoft",
         session: "Dynamic storytelling and NPC interactions using generative AI & Azure Cosmos DB in game development",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, we explore the fusion of generative AI and Azure Cosmos DB within the realm of game development. Dive into the dynamic world of storytelling, where non-player characters (NPCs) evolve beyond scripted roles. Discover how generative AI enhances NPC interactions, adapts to player choices, and breathes life into virtual game worlds.",
@@ -226,7 +226,7 @@ var speakers = [
     },
     {
         id: 15,
-        name: "Marcelo Fonseca",
+        name: "Marcelo Fonseca - Microsoft",
         session: "Build Scalable Inventory System with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session we will discuss two different approaches to design an inventory management system using several Azure Cosmos DB advanced features and the new Azure Cosmos DB Mirroring in Microsoft Fabric for near real time dashboards.",
@@ -242,7 +242,7 @@ var speakers = [
     },
     {
         id: 16,
-        name: "Massimiliano Ungheretti",
+        name: "Massimiliano Ungheretti - TomTom",
         session: "Building Generative AI Apps with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "In this presentation, we will explore the architecture and development of the TomTom Intelligent Vehicle Assistant. This assistant integrates with vehicle infotainment and navigation systems to enable natural and meaningful voice interactions for drivers and passengers.  This advanced voice assistant is powered by Generative AI using the Azure OpenAI API and AI techniques such as vector search, retrieval augmented generation, and tool use. Our architecture relies on Azure Cosmos DB, which stores customer interactions and enables continuous learning and personalization based on each driver's unique preferences. We will discuss the roles that various Azure services play in creating this voice assistant.",
@@ -258,7 +258,7 @@ var speakers = [
     },
     {
         id: 17,
-        name: "Michael Calvin",
+        name: "Michael Calvin - Kinectify",
         session: "Fighting financial crime: How Kinectify uses Azure Cosmos DB, Fabric, and Azure AI to stop money laundering",
         dateAndTime: "Date/Time TBA",
         abstract: "Discover Kinectify's use of Azure Cosmos DB to build a platform that processes thousands of transactions per second, aiding in the detection and prevention of money laundering in gaming. We'll discuss the platform's architecture, why Azure Cosmos DB was chosen, and key lessons from scaling data ingestion. Additionally, we'll explore how integrating this data into Microsoft Fabric enhances our business intelligence, analytics, and AI Ops, contributing to our GenAI and traditional ML initiatives.",
@@ -274,7 +274,7 @@ var speakers = [
     },
     {
         id: 18,
-        name: "Michael John Pena",
+        name: "Michael John Pena - Playtime Solutions",
         session: "Azure Cosmos DB as Vector Database",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, we delve into the utilization of Azure Cosmos DB as a vector database. We explore its capabilities in handling large-scale vector data, offering low-latency, high-throughput, and globally distributed scalability. We discuss its multi-model support, which allows for the storage and querying of vector data in various formats. We also provide a hands-on demonstration of how to leverage Azure Cosmos DB for vector data management. This includes a step-by-step guide on setting up the database, loading vector data, and executing queries. The demonstration concludes with an overview of best practices for optimizing performance and cost. This session is ideal for data professionals seeking to enhance their knowledge of Azure Cosmos DB and its application in managing vector data. Attendees will gain practical skills that can be immediately applied in their own projects.",
@@ -290,7 +290,7 @@ var speakers = [
     },
     {
         id: 19,
-        name: "Nick Greenfield",
+        name: "Nick Greenfield - Microsoft",
         session: "Exploring Dapr’s Integration with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "Join Nick Greenfield, a Senior Product Manager at Microsoft and Dapr maintainer, as he provides an overview of Dapr and its integration with CosmosDB. Dapr is an open-source runtime that offers developers a set of incrementally adoptable APIs, simplifying the development of distributed applications by abstracting away many implementation complexities. During this session, Nick will demonstrate just how easy it is to use CosmosDB through a set of Dapr APIs. Nick will also cover implementation specifics regarding how Dapr leverages the Azure CosmosDB Go-SDK for communication with Cosmos services.",
@@ -306,7 +306,7 @@ var speakers = [
     },
     {
         id: 20,
-        name: "Rebai Hamida",
+        name: "Rebai Hamida - Revenu Québec",
         session: "Azure Cosmos DB as Vector Database",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, we delve into the utilization of Azure Cosmos DB as a vector database. We explore its capabilities in handling large-scale vector data, offering low-latency, high-throughput, and globally distributed scalability. We discuss its multi-model support, which allows for the storage and querying of vector data in various formats. We also provide a hands-on demonstration of how to leverage Azure Cosmos DB for vector data management. This includes a step-by-step guide on setting up the database, loading vector data, and executing queries. The demonstration concludes with an overview of best practices for optimizing performance and cost. This session is ideal for data professionals seeking to enhance their knowledge of Azure Cosmos DB and its application in managing vector data. Attendees will gain practical skills that can be immediately applied in their own projects.",
@@ -322,7 +322,7 @@ var speakers = [
     },
     {
         id: 21,
-        name: "Revin Chalil",
+        name: "Revin Chalil - Microsoft",
         session: "Near real-time analytics on Azure Cosmos DB with Microsoft Fabric mirroring",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, learn how you can bring Azure Cosmos DB data into Microsoft Fabric and run no-ETL, near real-time analytics over your operational data. Mirroring allows you to unify your data estate and break down silos. You can seamlessly mirror data from various sources like Snowflake, Azure Cosmos DB, Azure SQL DB, etc. into Fabric. Once the data is replicated into Fabric OneLake, you can join data across these mirrored artifacts and build complex analytical solutions with ease, unifying your data estate.",
@@ -338,7 +338,7 @@ var speakers = [
     },
     {
         id: 22,
-        name: "Rodrigo Souza",
+        name: "Rodrigo Souza - Microsoft",
         session: "Near real-time analytics on Azure Cosmos DB with Microsoft Fabric mirroring",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, learn how you can bring Azure Cosmos DB data into Microsoft Fabric and run no-ETL, near real-time analytics over your operational data. Mirroring allows you to unify your data estate and break down silos. You can seamlessly mirror data from various sources like Snowflake, Azure Cosmos DB, Azure SQL DB, etc. into Fabric. Once the data is replicated into Fabric OneLake, you can join data across these mirrored artifacts and build complex analytical solutions with ease, unifying your data estate.",
@@ -354,7 +354,7 @@ var speakers = [
     },
     {
         id: 23,
-        name: "Sajeetharan Sinnathurai",
+        name: "Sajeetharan Sinnathurai - Microsoft",
         session: "Effortless GraphQL: Data API Builder with Azure Cosmos DB Emulator for Cost-Free Cloud Simulation",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, we'll delve into Data API Builder, an open-source, cross-platform tool. With a single config file and zero coding, it swiftly creates secure GraphQL endpoints for Azure Cosmos DB. We'll also demonstrate using the Azure Cosmos DB emulator to rapidly build APIs and simulate the cloud experience.",
@@ -370,7 +370,7 @@ var speakers = [
     },
     {
         id: 24,
-        name: "Sergiy Smyrnov",
+        name: "Sergiy Smyrnov - Microsoft",
         session: "Build Scalable Inventory System with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session we will discuss two different approaches to design an inventory management system using several Azure Cosmos DB advanced features and the new Azure Cosmos DB Mirroring in Microsoft Fabric for near real time dashboards.",
@@ -386,7 +386,7 @@ var speakers = [
     },
     {
         id: 25,
-        name: "Shay Rojansky",
+        name: "Shay Rojansky - Microsoft",
         session: "Use EF Core to transition from SQL Server to Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "Differences in the characteristics and capabilities of document databases when compared to relational databases mean that it is often unwise to lift a relational model and attempt to use it directly with a document database. However, with appropriate changes to the data model and its use, a relational workload can be moved to a document database, especially when using an abstraction like EF Core. In this session, we take a simple application using EF Core and the SQL Server database provider and migrate it to use EF Core with the Azure Cosmos DB database provider, making appropriate changes along the way to promote best practices for working with document databases.",
@@ -402,7 +402,7 @@ var speakers = [
     },
     {
         id: 26,
-        name: "Tara Bhatia",
+        name: "Tara Bhatia - Microsoft",
         session: "Best Practices for Building Multi-Tenant Applications on Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, we’ll discuss best practices to follow when building mission-critical multi tenant systems on Azure Cosmos DB. Using a real-world example, we’ll deep dive into key concepts surrounding performance and security isolation and discuss best practices when it comes to key Azure Cosmos DB design considerations and capabilities — including selecting a partition key, setting throughput, and modeling your data.",
@@ -418,7 +418,7 @@ var speakers = [
     },
     {
         id: 27,
-        name: "Teena Idnani",
+        name: "Teena Idnani - JP Organ and Chase",
         session: "Azure Cosmos DB as Vector Database",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, we delve into the utilization of Azure Cosmos DB as a vector database. We explore its capabilities in handling large-scale vector data, offering low-latency, high-throughput, and globally distributed scalability. We discuss its multi-model support, which allows for the storage and querying of vector data in various formats. We also provide a hands-on demonstration of how to leverage Azure Cosmos DB for vector data management. This includes a step-by-step guide on setting up the database, loading vector data, and executing queries. The demonstration concludes with an overview of best practices for optimizing performance and cost. This session is ideal for data professionals seeking to enhance their knowledge of Azure Cosmos DB and its application in managing vector data. Attendees will gain practical skills that can be immediately applied in their own projects.",
@@ -434,7 +434,7 @@ var speakers = [
     },
     {
         id: 28,
-        name: "Theo van Kraay",
+        name: "Theo van Kraay - Microsoft",
         session: "Bulk read and update millions of items in seconds with the Cosmos DB Spark Connector!",
         dateAndTime: "Date/Time TBA",
         abstract: "In modern day IoT scenarios its common to receive batches of updates in the tens of millions from pre-processed signals - for example digital twin - from fleets of billions of devices. Suppose you need to read each item before doing the update - how do you process these updates in seconds without using enormous client resources? This session walks through the latest optimisations for bulk read/replace/patch in the Spark Connector to vastly improve the efficiency of this kind of operation.",
@@ -450,7 +450,7 @@ var speakers = [
     },
     {
         id: 29,
-        name: "William Harding",
+        name: "William Harding - Avanade",
         session: "Procedural Simulation, AI creativity and stochastic modeling. Using Azure Cosmos DB to make games.",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, we delve into the utilization of Azure Cosmos DB as a vector database. We explore its capabilities in handling large-scale vector data, offering low-latency, hiI've always had a hobby in Simulation, Games and Azure Infrastructure. In this talk, I'll show how you can leverage Azure, Cosmos DB and open source data science tools to build rich, extendable experiences. The Azure Cosmos DB graph, combined with Open AI can be used to generate very rich procedural experiences in real time. The application of the tools in this demo extend beyond games, the framework can be used for a number of Azure experience that use AI, graphs and event-based web experiences. https://github.com/BillmanH/exoplanets",
@@ -599,7 +599,7 @@ function generateSpeakerDetails(speaker) {
                         <div class="row">${socialLinksHTML}</div>
                     </div>
                     <div class="col-12 mt-3">
-                        <a href="/azurecosmosdbconf/agenda#presenters" class="blue">View all presenters</a>
+                        <a href="agenda.html#presenters" class="blue">View all presenters</a>
                     </div>
                 </div>
             </div>
