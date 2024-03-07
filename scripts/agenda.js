@@ -418,7 +418,7 @@ var speakers = [
     },
     {
         id: 27,
-        name: "Teena Idnani - JP Organ and Chase",
+        name: "Teena Idnani - JP Morgan and Chase",
         session: "Azure Cosmos DB as Vector Database",
         dateAndTime: "Date/Time TBA",
         abstract: "In this session, we delve into the utilization of Azure Cosmos DB as a vector database. We explore its capabilities in handling large-scale vector data, offering low-latency, high-throughput, and globally distributed scalability. We discuss its multi-model support, which allows for the storage and querying of vector data in various formats. We also provide a hands-on demonstration of how to leverage Azure Cosmos DB for vector data management. This includes a step-by-step guide on setting up the database, loading vector data, and executing queries. The demonstration concludes with an overview of best practices for optimizing performance and cost. This session is ideal for data professionals seeking to enhance their knowledge of Azure Cosmos DB and its application in managing vector data. Attendees will gain practical skills that can be immediately applied in their own projects.",
