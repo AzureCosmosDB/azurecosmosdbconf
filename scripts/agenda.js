@@ -418,6 +418,22 @@ var speakers = [
     },
     {
         id: 27,
+        name: "Tarunjit Singh - Mastercard",
+        session: "Businesses fight friendly fraud with Ethoca Consumer Clarity on Azure Cosmos DB",
+        dateAndTime: "Date/Time TBA",
+        abstract: "Ethoca, a MasterCard company, is helping businesses around the world fight friendly fraud with Ethoca Consumer Clarity™, a solution that provides rich merchant and purchase information to both cardholders and financial institutions, helping reduce purchase confusion. To accomplish this, Ethoca built its solution on Microsoft Azure, using Azure Cosmos DB to process 15 TB of data in real time. Since its launch, Consumer Clarity has processed thousands of digital receipts within seconds.  Azure Cosmos provides the capability at scale with speed.",
+        bioP1: "Software Engineering Manager at Mastercard",
+        bioP2: "",
+        socialLinks: [
+            { url: "", platform: "X" },
+            { url: "https://www.linkedin.com/in/tarunjit-singh/", platform: "LinkedIn" }
+        ],
+        imageUrl: "./images/speaker-images/tarunjit-singh.jpg",
+        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        agendaDisplayOrder: 26
+    },
+    {
+        id: 27,
         name: "Teena Idnani - JP Morgan and Chase",
         session: "Azure Cosmos DB as Vector Database",
         dateAndTime: "Date/Time TBA",
