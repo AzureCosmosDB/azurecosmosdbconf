@@ -1,7 +1,7 @@
 // Define the array of speaker objects
 var speakers = [
     {
-        id: 1,
+        id: 15,
         name: "Anitha Adusumilli - Microsoft",
         session: "Near real-time analytics on Azure Cosmos DB with Microsoft Fabric mirroring",
         dateAndTime: "Date/Time TBA",
@@ -225,7 +225,7 @@ var speakers = [
         agendaDisplayOrder: 14
     },
     {
-        id: 15
+        id: 15,
         name: "Manish Sharma - Microsoft",
         session: "Dynamic storytelling and NPC interactions using generative AI & Azure Cosmos DB in game development",
         dateAndTime: "Date/Time TBA",
