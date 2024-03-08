@@ -225,7 +225,7 @@ var speakers = [
         agendaDisplayOrder: 14
     },
     {
-        id: 15
+        id: 15,
         name: "Manish Sharma - Microsoft",
         session: "Dynamic storytelling and NPC interactions using generative AI & Azure Cosmos DB in game development",
         dateAndTime: "Date/Time TBA",
