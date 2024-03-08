@@ -137,10 +137,10 @@ var speakers = [
         bioP1: "Motivated Software Engineer offering expertise in developing innovative solutions and solving difficult problems with exceptional analytical skills.",
         bioP2: "",
         socialLinks: [
-            { url: "https://twitter.com/FaraahCodes", platform: "X" },
+            { url: "", platform: "X" },
             { url: "https://www.linkedin.com/in/geuntaekim/", platform: "LinkedIn" }
         ],
-        imageUrl: "./images/speaker-images/geintae-kim.jpg",
+        imageUrl: "./images/speaker-images/geuntae-kim.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
         agendaDisplayOrder: 9
     },
