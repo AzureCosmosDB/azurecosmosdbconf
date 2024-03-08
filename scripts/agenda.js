@@ -130,6 +130,22 @@ var speakers = [
     },
     {
         id: 9,
+        name: "Geuntae Kim - Mastercard, Ethoca",
+        session: "Businesses fight friendly fraud with Ethoca Consumer Clarity on Azure Cosmos DB",
+        dateAndTime: "Date/Time TBA",
+        abstract: "This session will explore the integration of Large Language Models (LLMs) from OpenAI with Azure Cosmos DB to develop intelligent data analysis applications. Learn how to enhance data insights using LLMs, leverage Azure Cosmos DB as a vector database, and orchestrate AI workflows with tools like LangChain. The session will cover practical examples, implementation strategies, and best practices for creating AI-powered applications that scale seamlessly.",
+        bioP1: "Motivated Software Engineer offering expertise in developing innovative solutions and solving difficult problems with exceptional analytical skills.",
+        bioP2: "",
+        socialLinks: [
+            { url: "https://twitter.com/FaraahCodes", platform: "X" },
+            { url: "https://www.linkedin.com/in/geuntaekim/", platform: "LinkedIn" }
+        ],
+        imageUrl: "./images/speaker-images/geintae-kim.jpg",
+        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        agendaDisplayOrder: 9
+    },
+    {
+        id: 10,
         name: "Hossein Khadivi Heris - Microsoft",
         session: "LLM App Development Using PromptFlow and Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -142,10 +158,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/hossein-khadivi-heris.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 9
+        agendaDisplayOrder: 10
     },
     {
-        id: 10,
+        id: 11,
         name: "Jasmine Greenaway - Microsoft",
         session: "Unleashing Potential: Design Patterns in Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -158,26 +174,26 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/jasmine-greenaway.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 10
+        agendaDisplayOrder: 11
     },
     {
-        id: 11,
+        id: 12,
         name: "James Codella - Microsoft",
         session: "Building Generative AI Apps with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "In this demo-focused session, we'll see how Azure Cosmos DB can support your Generative AI applications! From using vector search for Retrieval Augmented Generation (RAG), to managing chat histories, semantic caching, and more, all from your favorite orchestration tools like Semantic Kernel and LangChain! Learn why Azure Cosmos DB is the best database for your AI-powered applications!",
-        bioP1: "James is a Product Manager in Azure Cosmos DB working on NoSQL Query, vector search, and AI products.",
-        bioP2: "He has more than 15 years of experience working in data, analytics, and machine learning. He has a B.S. and an M. Eng. from Cornell University and a Ph.D. from the University of Wisconsin - Madison in Operations Research. He currently lives near NYC with his wife and puppy.",
+        bioP1: "James is a Product Manager in Azure Cosmos DB working on NoSQL Query, vector search, and AI products. He has more than 15 years of experience working in data, analytics, and machine learning. He has a B.S. and an M. Eng. from Cornell University and a Ph.D. from the University of Wisconsin - Madison in Operations Research. He currently lives near NYC with his wife and puppy.",
+        bioP2: "",
         socialLinks: [
             { url: "https://twitter.com/jamescodella", platform: "X" },
             { url: "https://www.linkedin.com/in/jamescodella/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/james-codella.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 11
+        agendaDisplayOrder: 12
     },
     {
-        id: 12,
+        id: 13,
         name: "Karlo Zatylny - Portnox Security",
         session: "Turning Growing Pains To Growing Wins With Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -190,10 +206,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/karlo-zatylny.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 12
+        agendaDisplayOrder: 13
     },
     {
-        id: 13,
+        id: 14,
         name: "Kirill Gavrylyuk  - Microsoft",
         session: "Azure Cosmos DB Conf 2024 Keynote",
         dateAndTime: "Date/Time TBA",
@@ -206,10 +222,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/kirill-gavrylyuk.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 13
+        agendaDisplayOrder: 14
     },
     {
-        id: 14,
+        id: 15
         name: "Manish Sharma - Microsoft",
         session: "Dynamic storytelling and NPC interactions using generative AI & Azure Cosmos DB in game development",
         dateAndTime: "Date/Time TBA",
@@ -222,10 +238,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/manish-sharma.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 14
+        agendaDisplayOrder: 15
     },
     {
-        id: 15,
+        id: 16,
         name: "Marcelo Fonseca - Microsoft",
         session: "Build Scalable Inventory System with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -238,10 +254,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/marcelo-fonseca.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 15
+        agendaDisplayOrder: 16
     },
     {
-        id: 16,
+        id: 17,
         name: "Massimiliano Ungheretti - TomTom",
         session: "Building Generative AI Apps with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -254,10 +270,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/massimiliano-ungheretti.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 16
+        agendaDisplayOrder: 17
     },
     {
-        id: 17,
+        id: 18,
         name: "Michael Calvin - Kinectify",
         session: "Fighting financial crime: How Kinectify uses Azure Cosmos DB, Fabric, and Azure AI to stop money laundering",
         dateAndTime: "Date/Time TBA",
@@ -270,10 +286,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/michael-calvin.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 17
+        agendaDisplayOrder: 18
     },
     {
-        id: 18,
+        id: 19,
         name: "Michael John Pena - Playtime Solutions",
         session: "Azure Cosmos DB as Vector Database",
         dateAndTime: "Date/Time TBA",
@@ -286,10 +302,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/michael-john-pena.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 18
+        agendaDisplayOrder: 19
     },
     {
-        id: 19,
+        id: 20,
         name: "Nick Greenfield - Microsoft",
         session: "Exploring Dapr’s Integration with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -302,10 +318,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/nick-greenfield.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 19
+        agendaDisplayOrder: 20
     },
     {
-        id: 20,
+        id: 21,
         name: "Rebai Hamida - Revenu Québec",
         session: "Azure Cosmos DB as Vector Database",
         dateAndTime: "Date/Time TBA",
@@ -318,10 +334,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/rebai-hamida.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 20
+        agendaDisplayOrder: 21
     },
     {
-        id: 21,
+        id: 22,
         name: "Revin Chalil - Microsoft",
         session: "Near real-time analytics on Azure Cosmos DB with Microsoft Fabric mirroring",
         dateAndTime: "Date/Time TBA",
@@ -334,10 +350,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/revin-chalil.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 21
+        agendaDisplayOrder: 22
     },
     {
-        id: 22,
+        id: 23,
         name: "Rodrigo Souza - Microsoft",
         session: "Near real-time analytics on Azure Cosmos DB with Microsoft Fabric mirroring",
         dateAndTime: "Date/Time TBA",
@@ -350,10 +366,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/rodrigo-souza.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 22
+        agendaDisplayOrder: 23
     },
     {
-        id: 23,
+        id: 24,
         name: "Sajeetharan Sinnathurai - Microsoft",
         session: "Effortless GraphQL: Data API Builder with Azure Cosmos DB Emulator for Cost-Free Cloud Simulation",
         dateAndTime: "Date/Time TBA",
@@ -366,10 +382,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/sajeetharan-sinnathurai.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 23
+        agendaDisplayOrder: 24
     },
     {
-        id: 24,
+        id: 25,
         name: "Sergiy Smyrnov - Microsoft",
         session: "Build Scalable Inventory System with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -382,10 +398,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/sergiy-smyrnov.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 24
+        agendaDisplayOrder: 25
     },
     {
-        id: 25,
+        id: 26,
         name: "Shay Rojansky - Microsoft",
         session: "Use EF Core to transition from SQL Server to Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -398,10 +414,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/shay-rojansky.png",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 25
+        agendaDisplayOrder: 26
     },
     {
-        id: 26,
+        id: 27,
         name: "Tara Bhatia - Microsoft",
         session: "Best Practices for Building Multi-Tenant Applications on Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -414,11 +430,11 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/tara-bhatia.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 26
+        agendaDisplayOrder: 27
     },
     {
-        id: 27,
-        name: "Tarunjit Singh - Mastercard",
+        id: 28,
+        name: "Tarunjit Singh - Mastercard, Ethoca",
         session: "Businesses fight friendly fraud with Ethoca Consumer Clarity on Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "Ethoca, a MasterCard company, is helping businesses around the world fight friendly fraud with Ethoca Consumer Clarity™, a solution that provides rich merchant and purchase information to both cardholders and financial institutions, helping reduce purchase confusion. To accomplish this, Ethoca built its solution on Microsoft Azure, using Azure Cosmos DB to process 15 TB of data in real time. Since its launch, Consumer Clarity has processed thousands of digital receipts within seconds.  Azure Cosmos provides the capability at scale with speed.",
@@ -430,10 +446,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/tarunjit-singh.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 26
+        agendaDisplayOrder: 28
     },
     {
-        id: 28,
+        id: 29,
         name: "Teena Idnani - JP Morgan and Chase",
         session: "Azure Cosmos DB as Vector Database",
         dateAndTime: "Date/Time TBA",
@@ -446,10 +462,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/teena-idnani.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 27
+        agendaDisplayOrder: 29
     },
     {
-        id: 29,
+        id: 30,
         name: "Theo van Kraay - Microsoft",
         session: "Bulk read and update millions of items in seconds with the Cosmos DB Spark Connector!",
         dateAndTime: "Date/Time TBA",
@@ -462,10 +478,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/theodorus-leonardus-van-kraay.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 28
+        agendaDisplayOrder: 30
     },
     {
-        id: 30,
+        id: 31,
         name: "William Harding - Avanade",
         session: "Procedural Simulation, AI creativity and stochastic modeling. Using Azure Cosmos DB to make games.",
         dateAndTime: "Date/Time TBA",
@@ -478,7 +494,7 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/william-harding.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 29
+        agendaDisplayOrder: 31
     },
 ];
 
