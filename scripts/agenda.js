@@ -118,8 +118,8 @@ var speakers = [
         session: "Building Intelligent Data Analysis Applications with OpenAI's LLMs and Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "This session will explore the integration of Large Language Models (LLMs) from OpenAI with Azure Cosmos DB to develop intelligent data analysis applications. Learn how to enhance data insights using LLMs, leverage Azure Cosmos DB as a vector database, and orchestrate AI workflows with tools like LangChain. The session will cover practical examples, implementation strategies, and best practices for creating AI-powered applications that scale seamlessly.",
-        bioP1: "Deborah Chen is a Program Manager on Azure Cosmos DB. She focuses on building a great developer experience - Portal experience, notebooks, partitioning, autoscale, and more - and improving the getting started experience for new customers. ",
-        bioP2: "In her free time, she enjoys building demos to show the capabilities of Azure Cosmos DB. Previously, she worked on Visual Studio, building out new debugging and productivity features.",
+        bioP1: "I am a results-driven Machine Learning and NLP Engineer, known for my innovative solutions to complex problems. With expertise in developing end-to-end machine learning pipelines, I excel at extracting meaningful insights from large datasets and enhancing natural language capabilities. As a Microsoft Learn Student Ambassador, I manage NLP projects and contribute as an ML Engineer in healthcare projects.",
+        bioP2: "I also served as a Mentor at the #AI4ALLMINDS Hackathon, recommended by Omdena Company. Certified as a Google Data Analyst, I've received training in public speaking through the Foundation in P.O.I.N.T program by Freestyle+. Additionally, I've instructed at San3aTech in the GirlsMake program supported by Chevron Company. As an Event Manager and Open Source Contributor at GirlScript Summer of Code, I've made significant contributions. Furthermore, I've authored and contributed content to a Data Analysis course at AI Planet.",
         socialLinks: [
             { url: "https://twitter.com/FaraahCodes", platform: "X" },
             { url: "https://www.linkedin.com/in/farah-m-abdou-1a8a31222/", platform: "LinkedIn" }
@@ -433,7 +433,7 @@ var speakers = [
         agendaDisplayOrder: 26
     },
     {
-        id: 27,
+        id: 28,
         name: "Teena Idnani - JP Morgan and Chase",
         session: "Azure Cosmos DB as Vector Database",
         dateAndTime: "Date/Time TBA",
@@ -449,7 +449,7 @@ var speakers = [
         agendaDisplayOrder: 27
     },
     {
-        id: 28,
+        id: 29,
         name: "Theo van Kraay - Microsoft",
         session: "Bulk read and update millions of items in seconds with the Cosmos DB Spark Connector!",
         dateAndTime: "Date/Time TBA",
@@ -465,7 +465,7 @@ var speakers = [
         agendaDisplayOrder: 28
     },
     {
-        id: 29,
+        id: 30,
         name: "William Harding - Avanade",
         session: "Procedural Simulation, AI creativity and stochastic modeling. Using Azure Cosmos DB to make games.",
         dateAndTime: "Date/Time TBA",
