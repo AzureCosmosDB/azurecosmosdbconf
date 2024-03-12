@@ -450,10 +450,10 @@ var speakers = [
     },
     {
         id: 29,
-        name: "Teena Idnani - JP Morgan and Chase",
-        session: "Azure Cosmos DB as Vector Database",
+        name: "Teena Idnani - JP Morgan Chase",
+        session: "NoSQL, YesCosmos: Build that Eventually Consistent Application using Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
-        abstract: "In this session, we delve into the utilization of Azure Cosmos DB as a vector database. We explore its capabilities in handling large-scale vector data, offering low-latency, high-throughput, and globally distributed scalability. We discuss its multi-model support, which allows for the storage and querying of vector data in various formats. We also provide a hands-on demonstration of how to leverage Azure Cosmos DB for vector data management. This includes a step-by-step guide on setting up the database, loading vector data, and executing queries. The demonstration concludes with an overview of best practices for optimizing performance and cost. This session is ideal for data professionals seeking to enhance their knowledge of Azure Cosmos DB and its application in managing vector data. Attendees will gain practical skills that can be immediately applied in their own projects.",
+        abstract: "Dive into the essentials of building Eventually Consistent applications using Azure Cosmos DB in our session, 'NoSQL, YesCosmos.' We'll guide you through the practical aspects of leveraging Azure Cosmos DB to design applications that embrace eventual consistency seamlessly. Learn the nuts and bolts of implementation, key considerations, and how to optimize your application's performance in a distributed environment. By attending this session, you will gain a clear understanding of the challenges and solutions involved, empowering you to build robust and scalable applications. Don't miss out on this opportunity to enhance your skills and take your application development to the next level. Join us for this session and let's build the future of eventually consistent applications together.",
         bioP1: "Teena Idnani is a Senior Lead Software Engineer based out of London. As a certified Azure Solutions Architect, she excels in building scalable cloud-native event driven architectures and is a key player in uplifting engineering practices across her organisation. ",
         bioP2: "In her current role, she enables various teams as they migrate and modernise their applications on Azure. She is also actively engaged in exploring potential applications of Quantum computing in finance. She is a prolific public speaker and enjoys mentoring young minds/women in tech.",
         socialLinks: [
