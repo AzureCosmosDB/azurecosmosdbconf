@@ -42,7 +42,7 @@ var speakers = [
         bioP2: "",
         socialLinks: [
             { url: "", platform: "" },
-            { url: "linkedin.com/in/avijitkgupta/", platform: "LinkedIn" }
+            { url: "https://linkedin.com/in/avijitkgupta/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/avijit-gupta.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
