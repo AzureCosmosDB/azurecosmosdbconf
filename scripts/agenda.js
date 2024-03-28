@@ -35,7 +35,7 @@ var speakers = [
     {
         id: 3,
         name: "Avijit Gupta - Microsoft",
-        session: "Developing a Similarity Search Application utilizing Vector types on Azure CosmosDB for Mongo vCore",
+        session: "Developing a Similarity Search Application utilizing Vector types on vCore-based Azure Cosmos DB for MongoDB",
         dateAndTime: "Date/Time TBA",
         abstract: "Similarity Search Application leveraging vector data types on Azure Cosmos DB for MongoDB vCore. This application will offer two key functionalities: Text to Image search and Image to Image search. In the Text to Image search feature, users can input textual queries, and the application will utilize vector data types to find semantically similar images stored in the Azure Blob.  Similarly, the Image to Image search feature allows users to upload an image, and the application will employ vector data types to search through blob container.",
         bioP1: "My name is Avijit Gupta & I bring 13 years of database expertise spanning across architecture, development, and BI. Currently a Program Manager at Microsoft with focus on utilizing vectors for intelligent data analysis.",
@@ -275,7 +275,7 @@ var speakers = [
     {
         id: 18,
         name: "Michael Calvin - Kinectify",
-        session: "Fighting financial crime: How Kinectify uses Azure Cosmos DB, Fabric, and Azure AI to stop money laundering",
+        session: "Fighting financial crime: How Kinectify uses Azure Cosmos DB, Microsoft Fabric, and Azure AI to stop money laundering",
         dateAndTime: "Date/Time TBA",
         abstract: "Discover Kinectify's use of Azure Cosmos DB to build a platform that processes thousands of transactions per second, aiding in the detection and prevention of money laundering in gaming. We'll discuss the platform's architecture, why Azure Cosmos DB was chosen, and key lessons from scaling data ingestion. Additionally, we'll explore how integrating this data into Microsoft Fabric enhances our business intelligence, analytics, and AI Ops, contributing to our GenAI and traditional ML initiatives.",
         bioP1: "Michael Calvin is a technology leader driven to deliver great software through high-performance engineering teams. Prior to joining Kinectify, Michael led the development of multiple cloud-first SaaS solutions in the construction technology, identity-proofing (KYC), and financial services markets. He has also delivered both on-premise and cloud solutions in the highly regulated healthcare and education spaces.",
@@ -467,7 +467,7 @@ var speakers = [
     {
         id: 30,
         name: "Theo van Kraay - Microsoft",
-        session: "Bulk read and update millions of items in seconds with the Cosmos DB Spark Connector!",
+        session: "Bulk read and update millions of items in seconds with the Azure Cosmos DB Spark Connector!",
         dateAndTime: "Date/Time TBA",
         abstract: "In modern day IoT scenarios its common to receive batches of updates in the tens of millions from pre-processed signals - for example digital twin - from fleets of billions of devices. Suppose you need to read each item before doing the update - how do you process these updates in seconds without using enormous client resources? This session walks through the latest optimisations for bulk read/replace/patch in the Spark Connector to vastly improve the efficiency of this kind of operation.",
         bioP1: "Theo is passionate about NoSQL and distributed computing. He joined Microsoft in 2017 and has been in the Cosmos DB Engineering team as a Program Manager since 2019. He is currently leads product management of Java Ecosystem, high availability, and Cassandra offerings for Cosmos DB.",
