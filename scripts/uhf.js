@@ -94,23 +94,23 @@ if (uhf) {
         }
 
         // Add JavaScript Includes to the end of HTML body element.
-        let scriptRegex = /<script.*?src=['"](.*?)['"].*?<\/script>/g;
-        let match;
-        while ((match = scriptRegex.exec(javascriptIncludes)) !== null) {
-            let scriptElement = document.createElement('script');
-            scriptElement.src = match[1];
-            document.body.appendChild(scriptElement);
-        }
+        // let scriptRegex = /<script.*?src=['"](.*?)['"].*?<\/script>/g;
+        // let match;
+        // while ((match = scriptRegex.exec(javascriptIncludes)) !== null) {
+        //     let scriptElement = document.createElement('script');
+        //     scriptElement.src = match[1];
+        //     document.body.appendChild(scriptElement);
+        // }
 
         // Add JavaScript block to the end of HTML body element.
-        let scriptElement = document.createElement('script');
-        scriptElement.innerHTML = javascriptBlock;
-        document.body.appendChild(scriptElement);
+        // let scriptElement = document.createElement('script');
+        // scriptElement.innerHTML = javascriptBlock;
+        // document.body.appendChild(scriptElement);
 
         // Include 1DS to the end of HTML body element (must be after other UHF Javascript).
-        scriptElement = document.createElement('script');
-        scriptElement.src = "scripts/1ds.js";
-        document.body.appendChild(scriptElement);
+        // scriptElement = document.createElement('script');
+        // scriptElement.src = "scripts/1ds.js";
+        // document.body.appendChild(scriptElement);
     }
 
     // Start loading CSS files.
