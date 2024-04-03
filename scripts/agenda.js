@@ -336,7 +336,7 @@ var speakers = [
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
         agendaDisplayOrder: 21
     },
-  {
+    {
         id: 22,
         name: "Sajeetharan Sinnathurai - Microsoft",
         session: "Effortless GraphQL: Data API Builder with Azure Cosmos DB Emulator for Cost-Free Cloud Simulation",
