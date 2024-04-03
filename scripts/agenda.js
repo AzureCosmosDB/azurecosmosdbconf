@@ -336,40 +336,8 @@ var speakers = [
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
         agendaDisplayOrder: 21
     },
-    {
+  {
         id: 22,
-        name: "Revin Chalil - Microsoft",
-        session: "Near real-time analytics on Azure Cosmos DB with Microsoft Fabric mirroring",
-        dateAndTime: "Date/Time TBA",
-        abstract: "In this session, learn how you can bring Azure Cosmos DB data into Microsoft Fabric and run no-ETL, near real-time analytics over your operational data. Mirroring allows you to unify your data estate and break down silos. You can seamlessly mirror data from various sources like Snowflake, Azure Cosmos DB, Azure SQL DB, etc. into Fabric. Once the data is replicated into Fabric OneLake, you can join data across these mirrored artifacts and build complex analytical solutions with ease, unifying your data estate.",
-        bioP1: "Principal Manager, Engineering and Product, Azure Cosmos DB Team",
-        bioP2: "",
-        socialLinks: [
-            { url: "", platform: "X" },
-            { url: "https://www.linkedin.com/in/revin/", platform: "LinkedIn" }
-        ],
-        imageUrl: "./images/speaker-images/revin-chalil.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 22
-    },
-    {
-        id: 23,
-        name: "Rodrigo Souza - Microsoft",
-        session: "Near real-time analytics on Azure Cosmos DB with Microsoft Fabric mirroring",
-        dateAndTime: "Date/Time TBA",
-        abstract: "In this session, learn how you can bring Azure Cosmos DB data into Microsoft Fabric and run no-ETL, near real-time analytics over your operational data. Mirroring allows you to unify your data estate and break down silos. You can seamlessly mirror data from various sources like Snowflake, Azure Cosmos DB, Azure SQL DB, etc. into Fabric. Once the data is replicated into Fabric OneLake, you can join data across these mirrored artifacts and build complex analytical solutions with ease, unifying your data estate.",
-        bioP1: "Data Professional with 25+ years of experience on Analytics, Information Architecture, Big Data, Cloud Computing, Data Modeling, Machine Learning, and Database Administration.",
-        bioP2: "From startups to large organizations, always delivered commitment and innovation. After 2 years as AI instructor on Microsoft Cloud & AI team, migrated to the Cosmos DB team as a Senior Program Manager for Synapse Link, Power BI OLTP connector, and Python SDK. Microsoft certified AI Engineer, Instructor, Golden Speaker, Hackathon Leader and SQL Specialist.",
-        socialLinks: [
-            { url: "https://twitter.com/rodrigosqsz", platform: "X" },
-            { url: "https://www.linkedin.com/in/rodrigossz/", platform: "LinkedIn" }
-        ],
-        imageUrl: "./images/speaker-images/rodrigo-souza.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 23
-    },
-    {
-        id: 24,
         name: "Sajeetharan Sinnathurai - Microsoft",
         session: "Effortless GraphQL: Data API Builder with Azure Cosmos DB Emulator for Cost-Free Cloud Simulation",
         dateAndTime: "Date/Time TBA",
@@ -382,10 +350,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/sajeetharan-sinnathurai.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 24
+        agendaDisplayOrder: 22
     },
     {
-        id: 25,
+        id: 23,
         name: "Sergiy Smyrnov - Microsoft",
         session: "Build Scalable Inventory System with Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -398,10 +366,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/sergiy-smyrnov.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 25
+        agendaDisplayOrder: 23
     },
     {
-        id: 26,
+        id: 24,
         name: "Shay Rojansky - Microsoft",
         session: "Use EF Core to transition from SQL Server to Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -414,10 +382,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/shay-rojansky.png",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 26
+        agendaDisplayOrder: 24
     },
     {
-        id: 27,
+        id: 25,
         name: "Tara Bhatia - Microsoft",
         session: "Best Practices for Building Multi-Tenant Applications on Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -430,10 +398,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/tara-bhatia.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 27
+        agendaDisplayOrder: 25
     },
     {
-        id: 28,
+        id: 26,
         name: "Tarunjit Singh - Mastercard, Ethoca",
         session: "Businesses fight friendly fraud with Ethoca Consumer Clarity on Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -446,10 +414,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/tarunjit-singh.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 28
+        agendaDisplayOrder: 26
     },
     {
-        id: 29,
+        id: 27,
         name: "Teena Idnani - JP Morgan Chase",
         session: "NoSQL, YesCosmos: Build that Eventually Consistent Application using Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
@@ -462,10 +430,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/teena-idnani.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 29
+        agendaDisplayOrder: 27
     },
     {
-        id: 30,
+        id: 28,
         name: "Theo van Kraay - Microsoft",
         session: "Bulk read and update millions of items in seconds with the Azure Cosmos DB Spark Connector!",
         dateAndTime: "Date/Time TBA",
@@ -478,10 +446,10 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/theodorus-leonardus-van-kraay.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 30
+        agendaDisplayOrder: 28
     },
     {
-        id: 31,
+        id: 29,
         name: "William Harding - Avanade",
         session: "Procedural Simulation, AI creativity and stochastic modeling. Using Azure Cosmos DB to make games.",
         dateAndTime: "Date/Time TBA",
@@ -494,7 +462,7 @@ var speakers = [
         ],
         imageUrl: "./images/speaker-images/william-harding.jpg",
         liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
-        agendaDisplayOrder: 31
+        agendaDisplayOrder: 29
     },
 ];
 
