@@ -259,7 +259,7 @@ var speakers = [
     {
         id: 17,
         name: "Massimiliano Ungheretti - TomTom",
-        session: "Building Generative AI Apps with Azure Cosmos DB",
+        session: "Developing the TomTom Intelligent Vehicle Assistant: Leveraging Generative AI and Azure Cosmos DB",
         dateAndTime: "Date/Time TBA",
         abstract: "In this presentation, we will explore the architecture and development of the TomTom Intelligent Vehicle Assistant. This assistant integrates with vehicle infotainment and navigation systems to enable natural and meaningful voice interactions for drivers and passengers.  This advanced voice assistant is powered by Generative AI using the Azure OpenAI API and AI techniques such as vector search, retrieval augmented generation, and tool use. Our architecture relies on Azure Cosmos DB, which stores customer interactions and enables continuous learning and personalization based on each driver's unique preferences. We will discuss the roles that various Azure services play in creating this voice assistant.",
         bioP1: "Massimiliano Ungheretti, PhD, is a Data Scientist at TomTom, where he applies his background in mathematics and software engineering to various machine learning and big data projects. Currently, he's developing the TomTom Intelligent Vehicle Assistant. Prior to this, he worked on a range of Data Science topics at TomTom, including NLP for search engines, A/B testing, and search engine ranking optimization. Before joining TomTom, he earned his PhD in mathematics and worked at ING Bank.",
