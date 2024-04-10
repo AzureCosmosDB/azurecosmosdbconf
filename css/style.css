@@ -172,6 +172,21 @@ a.blue:focus {
     outline-offset: 1px;
 }
 
+a.blue-alt {
+    color: var(--theme-background);
+}
+
+a.blue-alt:hover {
+    color: var(--theme-dark);
+}
+
+a.blue-alt:focus {
+    color: var(--theme-dark);
+    outline: 3px dotted var(--theme-dark);
+    outline-offset: 1px;
+}
+
+
 .m-skip-to-main {
     color: var(--theme-primary);
 }
