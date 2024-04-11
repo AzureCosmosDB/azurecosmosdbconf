@@ -369,22 +369,6 @@ var speakers = [
         agendaDisplayOrder: null
     },
     {
-        id: 24,
-        name: "Shay Rojansky - Microsoft",
-        session: "Use EF Core to transition from SQL Server to Azure Cosmos DB",
-        dateAndTime: "On-Demand",
-        abstract: "Differences in the characteristics and capabilities of document databases when compared to relational databases mean that it is often unwise to lift a relational model and attempt to use it directly with a document database. However, with appropriate changes to the data model and its use, a relational workload can be moved to a document database, especially when using an abstraction like EF Core. In this session, we take a simple application using EF Core and the SQL Server database provider and migrate it to use EF Core with the Azure Cosmos DB database provider, making appropriate changes along the way to promote best practices for working with document databases.",
-        bioP1: "I'm in love with everything data in .NET - Entity Framework, System.Data, and anything else that has you talking to some sort of database. I'm especially interested in making things go faster, and going deep into the guts of things in order to make that happen. I'm also one of the developers working on Npgsql, the PostgreSQL .NET provider.",
-        bioP2: "",
-        socialLinks: [
-            { url: "https://twitter.com/shayrojansky", platform: "X" },
-            { url: "https://www.linkedin.com/in/shay-rojansky/", platform: "LinkedIn" }
-        ],
-        imageUrl: "./images/speaker-images/shay-rojansky.png",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
-        agendaDisplayOrder: null
-    },
-    {
         id: 25,
         name: "Tara Bhatia - Microsoft",
         session: "Best Practices for Building Multi-Tenant Applications on Azure Cosmos DB",
