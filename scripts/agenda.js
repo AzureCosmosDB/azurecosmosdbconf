@@ -13,7 +13,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/anithaadusumilli/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/anitha-adusumilli.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=IUtqr1zsEvo",
         agendaDisplayOrder: 05
     },
     {
@@ -29,7 +29,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/arthur-vickers-02b9026/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/arthur-vickers.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=qVR3tMiK7xg",
         agendaDisplayOrder: null
     },
     {
@@ -45,7 +45,7 @@ var speakers = [
             { url: "https://linkedin.com/in/avijitkgupta/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/avijit-gupta.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=I5PPiWuwhYY",
         agendaDisplayOrder: null
     },
     {
@@ -61,7 +61,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/craig-courtney-74178b6/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/craig-courtney.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=HJGif2MEWM8",
         agendaDisplayOrder: null
     },
     {
@@ -77,7 +77,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/debasish-biswas/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/debasish-biswas.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=HJGif2MEWM8",
         agendaDisplayOrder: null
     },
     {
@@ -93,7 +93,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/deborah-chen-62212437/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/deborah-chen.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=AGZCtOGgd9w",
         agendaDisplayOrder: null
     },
     {
@@ -109,7 +109,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/divakar-kumar/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/divakar-kumar.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=C5O55yuFEPc",
         agendaDisplayOrder: null
     },
     {
@@ -125,7 +125,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/farah-m-abdou-1a8a31222/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/farah-abdou.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=PF-rwMLKbHM",
         agendaDisplayOrder: null
     },
     {
@@ -141,7 +141,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/geuntaekim/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/geuntae-kim.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=EhY_K66u85A",
         agendaDisplayOrder: 07
     },
     {
@@ -157,7 +157,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/hossein-khadivi-heris-bb8a2320/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/hossein-khadivi-heris.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=PF-rwMLKbHM",
         agendaDisplayOrder: null
     },
     {
@@ -173,7 +173,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/jasminegreenaway/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/jasmine-greenaway.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=DnhoZw3W3Qw",
         agendaDisplayOrder: 03
     },
     {
@@ -189,7 +189,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/jamescodella/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/james-codella.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=eAbYC7B-Npo",
         agendaDisplayOrder: 01
     },
     {
@@ -205,7 +205,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/karlo-zatylny/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/karlo-zatylny.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=8lGs17c--5U",
         agendaDisplayOrder: null
     },
     {
@@ -221,7 +221,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/kirillgavrylyuk/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/kirill-gavrylyuk.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=9S4AqxI4Su8",
         agendaDisplayOrder: 00
     },
     {
@@ -237,7 +237,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/mannu2050/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/manish-sharma.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=Mx_uQLtU5oU",
         agendaDisplayOrder: null
     },
     {
@@ -253,7 +253,7 @@ var speakers = [
             { url: "fonsecamarcelo", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/marcelo-fonseca.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=fzKzfbW85pY",
         agendaDisplayOrder: null
     },
     {
@@ -269,7 +269,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/massimilianoungheretti/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/massimiliano-ungheretti.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=TyBjK0pmLRA",
         agendaDisplayOrder: 11
     },
     {
@@ -285,7 +285,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/mbcalvin/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/michael-calvin.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=-M_2p8FVu2Q",
         agendaDisplayOrder: null
     },
     {
@@ -301,7 +301,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/michaeljohnpena/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/michael-john-pena.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=fThQMjrJLTI",
         agendaDisplayOrder: 02
     },
     {
@@ -317,7 +317,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/nicholas-greenfield/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/nick-greenfield.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=xoxAU1jppjw",
         agendaDisplayOrder: null
     },
     {
@@ -333,7 +333,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/hamida-rebai-trabelsi-09b8525/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/rebai-hamida.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=Tn5ZWGWI3gs",
         agendaDisplayOrder: null
     },
     {
@@ -349,7 +349,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/sajeetharan/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/sajeetharan-sinnathurai.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=9VMFvXXRypw",
         agendaDisplayOrder: null
     },
     {
@@ -365,7 +365,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/sergiy-smyrnov/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/sergiy-smyrnov.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=fzKzfbW85pY",
         agendaDisplayOrder: null
     },
     {
@@ -381,7 +381,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/tarabhatia01/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/tara-bhatia.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=6iZSMazdBpY",
         agendaDisplayOrder: null
     },
     {
@@ -397,7 +397,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/tarunjit-singh/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/tarunjit-singh.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=EhY_K66u85A",
         agendaDisplayOrder: 06
     },
     {
@@ -413,7 +413,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/teenaidnani/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/teena-idnani.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=DrBBe2zKWXQ",
         agendaDisplayOrder: 04
     },
     {
@@ -429,7 +429,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/theo-van-kraay-3388b130/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/theodorus-leonardus-van-kraay.jpg",
-        liveSessionURL: "https://youtube.com/playlist?list=PLlrxD0HtieHgQxPGa9JJdbbUpmkuIshh4&feature=shared",
+        liveSessionURL: "https://www.youtube.com/watch?v=6KeAsnwD5sc",
         agendaDisplayOrder: null
     },
     {
@@ -445,7 +445,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/hardingwilliam/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/william-harding.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=PcSqw3CyABE",
+        liveSessionURL: "https://www.youtube.com/watch?v=lyHNIyMjngc",
         agendaDisplayOrder: 09
     },
 ];
