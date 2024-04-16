@@ -221,7 +221,7 @@ var speakers = [
             { url: "https://www.linkedin.com/in/kirillgavrylyuk/", platform: "LinkedIn" }
         ],
         imageUrl: "./images/speaker-images/kirill-gavrylyuk.jpg",
-        liveSessionURL: "https://www.youtube.com/watch?v=9S4AqxI4Su8",
+        liveSessionURL: "https://www.youtube.com/live/D-nknTYX0-w?feature=shared",
         agendaDisplayOrder: 00
     },
     {
