@@ -27,5 +27,20 @@ try {
 } catch (e) {
     // if that didn't work, just don't set pageName so it will fall back to default.
 }
+
 //Initialize SDK
 analytics.initialize(config, []);
+
+// Register for onConsentChanged event triggered by the consent banner.
+function onConsentChanged(categoryPreferences) {
+    console.log("onConsentChanged", categoryPreferences);
+    console.log("categoryPreferences.Required", categoryPreferences.Required);
+    console.log("categoryPreferences.Analytics", categoryPreferences.Analytics);
+    console.log("categoryPreferences.Advertising", categoryPreferences.Advertising);
+    console.log("categoryPreferences.SocialMedia", categoryPreferences.SocialMedia);
+
+    // For GitHub, all these values (except required) are false regardless of what cookie banner sets. Most likely due to cross domain.
+    //analytics.getPropertyManager().getPropertiesContext().web.gpcDataSharingOptIn = categoryPreferences.Analytics;
+};
+
+WcpConsent.onConsentChanged(onConsentChanged);

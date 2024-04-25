@@ -6,7 +6,6 @@ let cacheKey = partnerId + headerId + footerId + locale;
 let expiry = 60*60*1000; // 1 hour in milliseconds
 
 function GetUHF() {
-
     let uhf = customLocalStorage.getItem(cacheKey);
     if (uhf) {
         return uhf;
@@ -62,7 +61,7 @@ if (uhf) {
     tempDiv.innerHTML = cssIncludes;
     let cssNodes = Array.from(tempDiv.childNodes).filter(node => node.nodeType === Node.ELEMENT_NODE);
 
-    // Load CSS files sequentially and then proceed with header and footer content.
+    // Load CSS files sequentially and then proceed with header and footer content and JavaScript.
     function loadCSSFiles(index) {
         if (index < cssNodes.length) {
             let cssNode = cssNodes[index];
@@ -74,8 +73,9 @@ if (uhf) {
             };
             document.head.appendChild(cssLink);
         } else {
-            // All CSS files loaded, proceed with header and footer content.
+            // All CSS files loaded, proceed with header and footer content and JavaScript.
             loadHeaderAndFooter();
+            loadJavaScriptIncludes();
         }
     }
 
@@ -92,16 +92,37 @@ if (uhf) {
         if (obj && (footerHtml.length > 0)) {
             obj.innerHTML = footerHtml;
         }
+    }
 
+    // Function to load scripts.
+    function loadScript(src, callback) {
+        let scriptElement = document.createElement('script');
+        scriptElement.src = src;
+        scriptElement.onload = callback;
+        document.body.appendChild(scriptElement);
+    }
+
+    // Fully load JavaScript Include files and then the rest of the JavaScript content.
+    function loadJavaScriptIncludes() {
         // Add JavaScript Includes to the end of HTML body element.
         let scriptRegex = /<script.*?src=['"](.*?)['"].*?<\/script>/g;
         let match;
-        while ((match = scriptRegex.exec(javascriptIncludes)) !== null) {
-            let scriptElement = document.createElement('script');
-            scriptElement.src = match[1];
-            document.body.appendChild(scriptElement);
-        }
+        let scriptCount = 0;
+        let totalScripts = 0;
 
+        while ((match = scriptRegex.exec(javascriptIncludes)) !== null) {
+            totalScripts++;
+            loadScript(match[1], function() {
+                scriptCount++;
+                if (scriptCount === totalScripts) {
+                    // All scripts loaded, now add the JavaScript block and 1DS.
+                    addJavaScriptBlockAnd1DS();
+                }
+            });
+        }
+    }
+
+    function addJavaScriptBlockAnd1DS() {
         // Add JavaScript block to the end of HTML body element.
         let scriptElement = document.createElement('script');
         scriptElement.innerHTML = javascriptBlock;
